@@ -107,11 +107,6 @@ node test/client-sim.mjs       # Client：迷你 React 跑槽位注册、加载�
 
 嫌贵就把 `wordsPerTurn` 调到 1，或者 `enabled: false`。
 
-## 邻居项目
-
-- [`JMX-4869/dsh-mood`](https://github.com/JMX-4869/dsh-mood)：给 DSH 加「心情」，靠状态机自己漂移。
-- [`hello-yunshu/interest-growth`](https://github.com/hello-yunshu/interest-growth)：面向人的兴趣培养方法论，不是插件。
-- [`fuyiyun666/awesome-dsh-plugin-2`](https://github.com/fuyiyun666/awesome-dsh-plugin-2)：DSH 插件索引。
 
 好奇心和心情是两回事：心情是「现在什么感觉」，这个插件是「长期在想什么」。
 
