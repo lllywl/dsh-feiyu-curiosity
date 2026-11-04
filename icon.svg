@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Curiosity">
+  <defs>
+    <linearGradient id="fc-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d6fd8"/>
+      <stop offset="1" stop-color="#3fc1c9"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#fc-bg)"/>
+  <path d="M32 32a2.6 2.6 0 0 1 2.6 2.6a6.5 6.5 0 0 1-6.5 6.5a10.4 10.4 0 0 1-10.4-10.4a14.3 14.3 0 0 1 14.3-14.3a18.2 18.2 0 0 1 18.2 18.2"
+        fill="none" stroke="#ffffff" stroke-width="4.2" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="2.6" fill="#ffffff"/>
+</svg>

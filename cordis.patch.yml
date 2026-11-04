@@ -1,0 +1,5 @@
+# dsh-feiyu-curiosity bundle patch — 安装即自动启用。
+# profile 自己的 cordis.patch.yml 仍可按 id 覆盖这一行。
+- insert:
+    - id: feiyu-curiosity
+      name: 'dsh-feiyu-curiosity'

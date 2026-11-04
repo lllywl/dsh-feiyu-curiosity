@@ -1,0 +1,56 @@
+{
+  "name": "dsh-feiyu-curiosity",
+  "version": "0.1.0",
+  "description": "大肥鱼的好奇心账本：每回合随机闪过几颗词，按实际消耗的 token 与时间记分，慢慢长出真正感兴趣的东西；侧栏入口 + 兴趣榜面板 + curiosity 工具。",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "test/*.mjs"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "curiosity",
+    "interest",
+    "persona",
+    "agent-memory"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "lllywl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lllywl/dsh-feiyu-curiosity.git"
+  },
+  "homepage": "https://github.com/lllywl/dsh-feiyu-curiosity#readme",
+  "bugs": {
+    "url": "https://github.com/lllywl/dsh-feiyu-curiosity/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

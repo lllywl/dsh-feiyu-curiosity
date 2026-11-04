@@ -1,0 +1,11 @@
+node_modules/
+*.log
+*.tgz
+.DS_Store
+.pnpm-store/
+plugin-manager/
+*.local.json
+
+# 运行时账本（本机私有数据，永不入库）
+curiosity/
+state.json
